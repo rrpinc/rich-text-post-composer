@@ -1,0 +1,4 @@
+
+@interface TextComposerViewController : UIViewController
+
+@end

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextComposerViewController">
+            <connections>
+                <outlet property="textView" destination="uz8-W9-Hg7" id="t79-GF-UNu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PhL-Ok-btB">
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" keyboardDismissMode="onDrag" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uz8-W9-Hg7">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <attributedString key="attributedText"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                        </textView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="uz8-W9-Hg7" firstAttribute="leading" secondItem="PhL-Ok-btB" secondAttribute="leading" id="2jZ-d4-rnc"/>
+                        <constraint firstAttribute="trailing" secondItem="uz8-W9-Hg7" secondAttribute="trailing" id="3LX-wb-hXI"/>
+                        <constraint firstItem="uz8-W9-Hg7" firstAttribute="top" secondItem="PhL-Ok-btB" secondAttribute="top" id="8gC-2p-I2f"/>
+                        <constraint firstAttribute="bottom" secondItem="uz8-W9-Hg7" secondAttribute="bottom" id="lnT-7S-rET"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PhL-Ok-btB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9J9-qN-Wur"/>
+                <constraint firstAttribute="trailing" secondItem="PhL-Ok-btB" secondAttribute="trailing" id="qcH-2W-CAT"/>
+                <constraint firstItem="PhL-Ok-btB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qyj-i8-yIJ"/>
+                <constraint firstAttribute="bottom" secondItem="PhL-Ok-btB" secondAttribute="bottom" id="xtP-V6-Kab"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="-40" y="46"/>
+        </view>
+    </objects>
+</document>

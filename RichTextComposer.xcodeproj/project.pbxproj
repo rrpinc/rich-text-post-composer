@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26F4D11CD0EE06BBF993E1EB /* TextImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4DEAFB4EF2C8DF404BFC9 /* TextImageLoader.m */; };
+		26F4D4D4A58ADFC1883E1904 /* TextComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F4D9F45BC306531AD56060 /* TextComposerViewController.xib */; };
+		26F4D638BEF72AEBCAD822D8 /* TextComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D58DEA912F25E41B51F2 /* TextComposerViewController.m */; };
+		26F4D7A7E6B070F57533BA5F /* ComposerTextViewDelegate+ParagraphStyling.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4DAFEB68285744C0DE8E8 /* ComposerTextViewDelegate+ParagraphStyling.m */; };
+		B33AFFB1E851B9F1B9F7783D /* libPods-RichTextComposer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446778F9F106360D269D192 /* libPods-RichTextComposer.a */; };
+		E013BBFD1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E013BBFC1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m */; };
 		E01CEA101DC344AE00F2F48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA0F1DC344AE00F2F48C /* main.m */; };
 		E01CEA131DC344AE00F2F48C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA121DC344AE00F2F48C /* AppDelegate.m */; };
-		E01CEA161DC344AE00F2F48C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA151DC344AE00F2F48C /* ViewController.m */; };
-		E01CEA191DC344AE00F2F48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA171DC344AE00F2F48C /* Main.storyboard */; };
 		E01CEA1B1DC344AE00F2F48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA1A1DC344AE00F2F48C /* Assets.xcassets */; };
-		E01CEA1E1DC344AE00F2F48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA1C1DC344AE00F2F48C /* LaunchScreen.storyboard */; };
 		E01CEA291DC344AE00F2F48C /* RichTextComposerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA281DC344AE00F2F48C /* RichTextComposerTests.m */; };
+		E01CEA3B1DC36ADC00F2F48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA3A1DC36ADC00F2F48C /* LaunchScreen.storyboard */; };
+		E01CEA3F1DC507ED00F2F48C /* EditorActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA3D1DC507ED00F2F48C /* EditorActionsViewController.m */; };
+		E01CEA401DC507ED00F2F48C /* EditorActionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA3E1DC507ED00F2F48C /* EditorActionsViewController.xib */; };
+		E01CEA441DC55C0D00F2F48C /* UIFont+Traits.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA431DC55C0D00F2F48C /* UIFont+Traits.m */; };
+		E01CEA491DC5638C00F2F48C /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA471DC5638C00F2F48C /* ImagePickerViewController.m */; };
+		E01CEA4A1DC5638C00F2F48C /* ImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA481DC5638C00F2F48C /* ImagePickerViewController.xib */; };
+		E01CEA4E1DC5640800F2F48C /* RemoteImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA4C1DC5640800F2F48C /* RemoteImageCollectionViewCell.m */; };
+		E01CEA4F1DC5640800F2F48C /* RemoteImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA4D1DC5640800F2F48C /* RemoteImageCollectionViewCell.xib */; };
+		E01CEA521DC56C8E00F2F48C /* RemoteImageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA511DC56C8E00F2F48C /* RemoteImageViewModel.m */; };
+		E0351FAF1DC87DC8007501B0 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0351FAD1DC87DC8007501B0 /* LandingViewController.m */; };
+		E0351FB01DC87DC8007501B0 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0351FAE1DC87DC8007501B0 /* LandingViewController.xib */; };
+		E056DC821DC7F9C1004B65C6 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E056DC811DC7F9C1004B65C6 /* UIImage+Scale.m */; };
+		E05E98781DC93DE500AC72D8 /* ComposerTextViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05E98771DC93DE500AC72D8 /* ComposerTextViewDelegate.m */; };
+		E05E987A1DC94A9100AC72D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05E98791DC94A9100AC72D8 /* QuartzCore.framework */; };
+		E05E987D1DC9577900AC72D8 /* NSAttributedString+Paragraph.m in Sources */ = {isa = PBXBuildFile; fileRef = E05E987C1DC9577900AC72D8 /* NSAttributedString+Paragraph.m */; };
+		E0D5CB8E1DC92EC800AA8C17 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D5CB8D1DC92EC800AA8C17 /* CoreText.framework */; };
+		E0D5CB901DC9304B00AA8C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D5CB8F1DC9304B00AA8C17 /* CoreGraphics.framework */; };
+		E0D5CB921DC930BE00AA8C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D5CB911DC930BE00AA8C17 /* UIKit.framework */; };
+		E0D5CB941DC930E700AA8C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D5CB931DC930E700AA8C17 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +49,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1446778F9F106360D269D192 /* libPods-RichTextComposer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RichTextComposer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F4D58DEA912F25E41B51F2 /* TextComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextComposerViewController.m; sourceTree = "<group>"; };
+		26F4D65E004A8C0AC00FB558 /* TextImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextImageLoader.h; sourceTree = "<group>"; };
+		26F4D7F303419EC6D9D124C0 /* ComposerTextViewDelegate+ParagraphStyling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComposerTextViewDelegate+ParagraphStyling.h"; sourceTree = "<group>"; };
+		26F4D9F45BC306531AD56060 /* TextComposerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextComposerViewController.xib; sourceTree = "<group>"; };
+		26F4DAFEB68285744C0DE8E8 /* ComposerTextViewDelegate+ParagraphStyling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ComposerTextViewDelegate+ParagraphStyling.m"; sourceTree = "<group>"; };
+		26F4DEAFB4EF2C8DF404BFC9 /* TextImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextImageLoader.m; sourceTree = "<group>"; };
+		26F4DF0BD0A9282B629823C5 /* TextComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextComposerViewController.h; sourceTree = "<group>"; };
+		2982D44416B2743F064276C1 /* Pods-RichTextComposer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextComposer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextComposer/Pods-RichTextComposer.release.xcconfig"; sourceTree = "<group>"; };
+		6EB5CF84B2208D3D04A634EF /* Pods-RichTextComposer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextComposer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextComposer/Pods-RichTextComposer.debug.xcconfig"; sourceTree = "<group>"; };
+		E013BBFB1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerCollectionViewDataProvider.h; sourceTree = "<group>"; };
+		E013BBFC1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerCollectionViewDataProvider.m; sourceTree = "<group>"; };
 		E01CEA0B1DC344AE00F2F48C /* RichTextComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTextComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01CEA0F1DC344AE00F2F48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E01CEA111DC344AE00F2F48C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E01CEA121DC344AE00F2F48C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E01CEA141DC344AE00F2F48C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E01CEA151DC344AE00F2F48C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E01CEA181DC344AE00F2F48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01CEA1A1DC344AE00F2F48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E01CEA1D1DC344AE00F2F48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01CEA1F1DC344AE00F2F48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01CEA241DC344AE00F2F48C /* RichTextComposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextComposerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01CEA281DC344AE00F2F48C /* RichTextComposerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextComposerTests.m; sourceTree = "<group>"; };
 		E01CEA2A1DC344AE00F2F48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01CEA3A1DC36ADC00F2F48C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E01CEA3C1DC507ED00F2F48C /* EditorActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorActionsViewController.h; sourceTree = "<group>"; };
+		E01CEA3D1DC507ED00F2F48C /* EditorActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorActionsViewController.m; sourceTree = "<group>"; };
+		E01CEA3E1DC507ED00F2F48C /* EditorActionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditorActionsViewController.xib; sourceTree = "<group>"; };
+		E01CEA421DC55C0D00F2F48C /* UIFont+Traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Traits.h"; sourceTree = "<group>"; };
+		E01CEA431DC55C0D00F2F48C /* UIFont+Traits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Traits.m"; sourceTree = "<group>"; };
+		E01CEA461DC5638C00F2F48C /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		E01CEA471DC5638C00F2F48C /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
+		E01CEA481DC5638C00F2F48C /* ImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePickerViewController.xib; sourceTree = "<group>"; };
+		E01CEA4B1DC5640800F2F48C /* RemoteImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageCollectionViewCell.h; sourceTree = "<group>"; };
+		E01CEA4C1DC5640800F2F48C /* RemoteImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageCollectionViewCell.m; sourceTree = "<group>"; };
+		E01CEA4D1DC5640800F2F48C /* RemoteImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemoteImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		E01CEA501DC56C8E00F2F48C /* RemoteImageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageViewModel.h; sourceTree = "<group>"; };
+		E01CEA511DC56C8E00F2F48C /* RemoteImageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageViewModel.m; sourceTree = "<group>"; };
+		E03027B21DC93888004A26E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E0351FAC1DC87DC8007501B0 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		E0351FAD1DC87DC8007501B0 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		E0351FAE1DC87DC8007501B0 /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		E056DC801DC7F9C1004B65C6 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		E056DC811DC7F9C1004B65C6 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		E05E98761DC93DE500AC72D8 /* ComposerTextViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposerTextViewDelegate.h; sourceTree = "<group>"; };
+		E05E98771DC93DE500AC72D8 /* ComposerTextViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposerTextViewDelegate.m; sourceTree = "<group>"; };
+		E05E98791DC94A9100AC72D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E05E987B1DC9577900AC72D8 /* NSAttributedString+Paragraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Paragraph.h"; sourceTree = "<group>"; };
+		E05E987C1DC9577900AC72D8 /* NSAttributedString+Paragraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Paragraph.m"; sourceTree = "<group>"; };
+		E0D5CB8D1DC92EC800AA8C17 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E0D5CB8F1DC9304B00AA8C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0D5CB911DC930BE00AA8C17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0D5CB931DC930E700AA8C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0D5CB951DC9362E00AA8C17 /* ImagePickerProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerProtocols.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +107,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05E987A1DC94A9100AC72D8 /* QuartzCore.framework in Frameworks */,
+				E0D5CB941DC930E700AA8C17 /* Foundation.framework in Frameworks */,
+				E0D5CB901DC9304B00AA8C17 /* CoreGraphics.framework in Frameworks */,
+				E0D5CB921DC930BE00AA8C17 /* UIKit.framework in Frameworks */,
+				E0D5CB8E1DC92EC800AA8C17 /* CoreText.framework in Frameworks */,
+				B33AFFB1E851B9F1B9F7783D /* libPods-RichTextComposer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +126,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09833DE8B06F495A6B2003BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E05E98791DC94A9100AC72D8 /* QuartzCore.framework */,
+				E0D5CB931DC930E700AA8C17 /* Foundation.framework */,
+				E0D5CB911DC930BE00AA8C17 /* UIKit.framework */,
+				E0D5CB8F1DC9304B00AA8C17 /* CoreGraphics.framework */,
+				E0D5CB8D1DC92EC800AA8C17 /* CoreText.framework */,
+				1446778F9F106360D269D192 /* libPods-RichTextComposer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA504457DA02D7E03E64C41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EB5CF84B2208D3D04A634EF /* Pods-RichTextComposer.debug.xcconfig */,
+				2982D44416B2743F064276C1 /* Pods-RichTextComposer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E01CEA021DC344AE00F2F48C = {
 			isa = PBXGroup;
 			children = (
 				E01CEA0D1DC344AE00F2F48C /* RichTextComposer */,
 				E01CEA271DC344AE00F2F48C /* RichTextComposerTests */,
 				E01CEA0C1DC344AE00F2F48C /* Products */,
+				DAA504457DA02D7E03E64C41 /* Pods */,
+				09833DE8B06F495A6B2003BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +171,22 @@
 		E01CEA0D1DC344AE00F2F48C /* RichTextComposer */ = {
 			isa = PBXGroup;
 			children = (
+				E05E98751DC93D5700AC72D8 /* TextEditor */,
+				E01CEA451DC5634900F2F48C /* ImagePicker */,
+				E01CEA411DC55BF200F2F48C /* Extensions */,
 				E01CEA111DC344AE00F2F48C /* AppDelegate.h */,
 				E01CEA121DC344AE00F2F48C /* AppDelegate.m */,
-				E01CEA141DC344AE00F2F48C /* ViewController.h */,
-				E01CEA151DC344AE00F2F48C /* ViewController.m */,
-				E01CEA171DC344AE00F2F48C /* Main.storyboard */,
 				E01CEA1A1DC344AE00F2F48C /* Assets.xcassets */,
-				E01CEA1C1DC344AE00F2F48C /* LaunchScreen.storyboard */,
 				E01CEA1F1DC344AE00F2F48C /* Info.plist */,
 				E01CEA0E1DC344AE00F2F48C /* Supporting Files */,
+				E01CEA3A1DC36ADC00F2F48C /* LaunchScreen.storyboard */,
+				E01CEA3C1DC507ED00F2F48C /* EditorActionsViewController.h */,
+				E01CEA3D1DC507ED00F2F48C /* EditorActionsViewController.m */,
+				E01CEA3E1DC507ED00F2F48C /* EditorActionsViewController.xib */,
+				E0351FAC1DC87DC8007501B0 /* LandingViewController.h */,
+				E0351FAD1DC87DC8007501B0 /* LandingViewController.m */,
+				E0351FAE1DC87DC8007501B0 /* LandingViewController.xib */,
+				E03027B21DC93888004A26E8 /* PrefixHeader.pch */,
 			);
 			path = RichTextComposer;
 			sourceTree = "<group>";
@@ -111,6 +208,53 @@
 			path = RichTextComposerTests;
 			sourceTree = "<group>";
 		};
+		E01CEA411DC55BF200F2F48C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E01CEA421DC55C0D00F2F48C /* UIFont+Traits.h */,
+				E01CEA431DC55C0D00F2F48C /* UIFont+Traits.m */,
+				E056DC801DC7F9C1004B65C6 /* UIImage+Scale.h */,
+				E056DC811DC7F9C1004B65C6 /* UIImage+Scale.m */,
+				E05E987B1DC9577900AC72D8 /* NSAttributedString+Paragraph.h */,
+				E05E987C1DC9577900AC72D8 /* NSAttributedString+Paragraph.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E01CEA451DC5634900F2F48C /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E01CEA461DC5638C00F2F48C /* ImagePickerViewController.h */,
+				E01CEA471DC5638C00F2F48C /* ImagePickerViewController.m */,
+				E01CEA481DC5638C00F2F48C /* ImagePickerViewController.xib */,
+				E01CEA4B1DC5640800F2F48C /* RemoteImageCollectionViewCell.h */,
+				E01CEA4C1DC5640800F2F48C /* RemoteImageCollectionViewCell.m */,
+				E01CEA4D1DC5640800F2F48C /* RemoteImageCollectionViewCell.xib */,
+				E01CEA501DC56C8E00F2F48C /* RemoteImageViewModel.h */,
+				E01CEA511DC56C8E00F2F48C /* RemoteImageViewModel.m */,
+				E013BBFB1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.h */,
+				E013BBFC1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m */,
+				E0D5CB951DC9362E00AA8C17 /* ImagePickerProtocols.h */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		E05E98751DC93D5700AC72D8 /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				26F4DF0BD0A9282B629823C5 /* TextComposerViewController.h */,
+				26F4D58DEA912F25E41B51F2 /* TextComposerViewController.m */,
+				26F4D9F45BC306531AD56060 /* TextComposerViewController.xib */,
+				E05E98761DC93DE500AC72D8 /* ComposerTextViewDelegate.h */,
+				E05E98771DC93DE500AC72D8 /* ComposerTextViewDelegate.m */,
+				26F4DEAFB4EF2C8DF404BFC9 /* TextImageLoader.m */,
+				26F4D65E004A8C0AC00FB558 /* TextImageLoader.h */,
+				26F4DAFEB68285744C0DE8E8 /* ComposerTextViewDelegate+ParagraphStyling.m */,
+				26F4D7F303419EC6D9D124C0 /* ComposerTextViewDelegate+ParagraphStyling.h */,
+			);
+			path = TextEditor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01CEA2D1DC344AE00F2F48C /* Build configuration list for PBXNativeTarget "RichTextComposer" */;
 			buildPhases = (
+				1A6AD5D1A18F773821230539 /* [CP] Check Pods Manifest.lock */,
 				E01CEA071DC344AE00F2F48C /* Sources */,
 				E01CEA081DC344AE00F2F48C /* Frameworks */,
 				E01CEA091DC344AE00F2F48C /* Resources */,
+				1D92E82DFA31953DABB300A1 /* [CP] Embed Pods Frameworks */,
+				402D5DB0B5433D72583A0358 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +342,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01CEA1E1DC344AE00F2F48C /* LaunchScreen.storyboard in Resources */,
+				E01CEA3B1DC36ADC00F2F48C /* LaunchScreen.storyboard in Resources */,
+				E0351FB01DC87DC8007501B0 /* LandingViewController.xib in Resources */,
 				E01CEA1B1DC344AE00F2F48C /* Assets.xcassets in Resources */,
-				E01CEA191DC344AE00F2F48C /* Main.storyboard in Resources */,
+				E01CEA4F1DC5640800F2F48C /* RemoteImageCollectionViewCell.xib in Resources */,
+				E01CEA4A1DC5638C00F2F48C /* ImagePickerViewController.xib in Resources */,
+				E01CEA401DC507ED00F2F48C /* EditorActionsViewController.xib in Resources */,
+				26F4D4D4A58ADFC1883E1904 /* TextComposerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +361,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A6AD5D1A18F773821230539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D92E82DFA31953DABB300A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichTextComposer/Pods-RichTextComposer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		402D5DB0B5433D72583A0358 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichTextComposer/Pods-RichTextComposer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E01CEA071DC344AE00F2F48C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01CEA161DC344AE00F2F48C /* ViewController.m in Sources */,
+				E05E98781DC93DE500AC72D8 /* ComposerTextViewDelegate.m in Sources */,
 				E01CEA131DC344AE00F2F48C /* AppDelegate.m in Sources */,
 				E01CEA101DC344AE00F2F48C /* main.m in Sources */,
+				E01CEA441DC55C0D00F2F48C /* UIFont+Traits.m in Sources */,
+				E0351FAF1DC87DC8007501B0 /* LandingViewController.m in Sources */,
+				E01CEA521DC56C8E00F2F48C /* RemoteImageViewModel.m in Sources */,
+				E013BBFD1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m in Sources */,
+				E056DC821DC7F9C1004B65C6 /* UIImage+Scale.m in Sources */,
+				E01CEA491DC5638C00F2F48C /* ImagePickerViewController.m in Sources */,
+				E01CEA3F1DC507ED00F2F48C /* EditorActionsViewController.m in Sources */,
+				E05E987D1DC9577900AC72D8 /* NSAttributedString+Paragraph.m in Sources */,
+				E01CEA4E1DC5640800F2F48C /* RemoteImageCollectionViewCell.m in Sources */,
+				26F4D638BEF72AEBCAD822D8 /* TextComposerViewController.m in Sources */,
+				26F4D11CD0EE06BBF993E1EB /* TextImageLoader.m in Sources */,
+				26F4D7A7E6B070F57533BA5F /* ComposerTextViewDelegate+ParagraphStyling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,25 +449,6 @@
 			targetProxy = E01CEA251DC344AE00F2F48C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E01CEA171DC344AE00F2F48C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E01CEA181DC344AE00F2F48C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E01CEA1C1DC344AE00F2F48C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E01CEA1D1DC344AE00F2F48C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E01CEA2B1DC344AE00F2F48C /* Debug */ = {
@@ -299,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -349,25 +541,31 @@
 		};
 		E01CEA2E1DC344AE00F2F48C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB5CF84B2208D3D04A634EF /* Pods-RichTextComposer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 752ZVX3U68;
+				GCC_PREFIX_HEADER = RichTextComposer/PrefixHeader.pch;
 				INFOPLIST_FILE = RichTextComposer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rrpinc.RichTextComposer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
 		E01CEA2F1DC344AE00F2F48C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2982D44416B2743F064276C1 /* Pods-RichTextComposer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 752ZVX3U68;
+				GCC_PREFIX_HEADER = RichTextComposer/PrefixHeader.pch;
 				INFOPLIST_FILE = RichTextComposer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rrpinc.RichTextComposer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
@@ -416,6 +614,7 @@
 				E01CEA2F1DC344AE00F2F48C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01CEA301DC344AE00F2F48C /* Build configuration list for PBXNativeTarget "RichTextComposerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +623,7 @@
 				E01CEA321DC344AE00F2F48C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
