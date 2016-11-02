@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		26F4D11CD0EE06BBF993E1EB /* TextImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4DEAFB4EF2C8DF404BFC9 /* TextImageLoader.m */; };
+		26F4D42122BCB55698E8129B /* EditorActionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F4D34CD577AABC5DD15E56 /* EditorActionsViewController.xib */; };
 		26F4D4D4A58ADFC1883E1904 /* TextComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F4D9F45BC306531AD56060 /* TextComposerViewController.xib */; };
 		26F4D638BEF72AEBCAD822D8 /* TextComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D58DEA912F25E41B51F2 /* TextComposerViewController.m */; };
 		26F4D7A7E6B070F57533BA5F /* ComposerTextViewDelegate+ParagraphStyling.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4DAFEB68285744C0DE8E8 /* ComposerTextViewDelegate+ParagraphStyling.m */; };
+		26F4DF50C0F9B1F14859247A /* EditorActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4DD1A8B1DCAB74E83DDED /* EditorActionsViewController.m */; };
 		B33AFFB1E851B9F1B9F7783D /* libPods-RichTextComposer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446778F9F106360D269D192 /* libPods-RichTextComposer.a */; };
 		E013BBFD1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E013BBFC1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m */; };
 		E01CEA101DC344AE00F2F48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA0F1DC344AE00F2F48C /* main.m */; };
@@ -18,8 +20,6 @@
 		E01CEA1B1DC344AE00F2F48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA1A1DC344AE00F2F48C /* Assets.xcassets */; };
 		E01CEA291DC344AE00F2F48C /* RichTextComposerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA281DC344AE00F2F48C /* RichTextComposerTests.m */; };
 		E01CEA3B1DC36ADC00F2F48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA3A1DC36ADC00F2F48C /* LaunchScreen.storyboard */; };
-		E01CEA3F1DC507ED00F2F48C /* EditorActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA3D1DC507ED00F2F48C /* EditorActionsViewController.m */; };
-		E01CEA401DC507ED00F2F48C /* EditorActionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA3E1DC507ED00F2F48C /* EditorActionsViewController.xib */; };
 		E01CEA441DC55C0D00F2F48C /* UIFont+Traits.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA431DC55C0D00F2F48C /* UIFont+Traits.m */; };
 		E01CEA491DC5638C00F2F48C /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CEA471DC5638C00F2F48C /* ImagePickerViewController.m */; };
 		E01CEA4A1DC5638C00F2F48C /* ImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01CEA481DC5638C00F2F48C /* ImagePickerViewController.xib */; };
@@ -50,11 +50,14 @@
 
 /* Begin PBXFileReference section */
 		1446778F9F106360D269D192 /* libPods-RichTextComposer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RichTextComposer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F4D34CD577AABC5DD15E56 /* EditorActionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorActionsViewController.xib; sourceTree = "<group>"; };
 		26F4D58DEA912F25E41B51F2 /* TextComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextComposerViewController.m; sourceTree = "<group>"; };
 		26F4D65E004A8C0AC00FB558 /* TextImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextImageLoader.h; sourceTree = "<group>"; };
+		26F4D6AADD6E74F6FCE3D040 /* EditorActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorActionsViewController.h; sourceTree = "<group>"; };
 		26F4D7F303419EC6D9D124C0 /* ComposerTextViewDelegate+ParagraphStyling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComposerTextViewDelegate+ParagraphStyling.h"; sourceTree = "<group>"; };
 		26F4D9F45BC306531AD56060 /* TextComposerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextComposerViewController.xib; sourceTree = "<group>"; };
 		26F4DAFEB68285744C0DE8E8 /* ComposerTextViewDelegate+ParagraphStyling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ComposerTextViewDelegate+ParagraphStyling.m"; sourceTree = "<group>"; };
+		26F4DD1A8B1DCAB74E83DDED /* EditorActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorActionsViewController.m; sourceTree = "<group>"; };
 		26F4DEAFB4EF2C8DF404BFC9 /* TextImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextImageLoader.m; sourceTree = "<group>"; };
 		26F4DF0BD0A9282B629823C5 /* TextComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextComposerViewController.h; sourceTree = "<group>"; };
 		2982D44416B2743F064276C1 /* Pods-RichTextComposer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextComposer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextComposer/Pods-RichTextComposer.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,9 +74,6 @@
 		E01CEA281DC344AE00F2F48C /* RichTextComposerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextComposerTests.m; sourceTree = "<group>"; };
 		E01CEA2A1DC344AE00F2F48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01CEA3A1DC36ADC00F2F48C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E01CEA3C1DC507ED00F2F48C /* EditorActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorActionsViewController.h; sourceTree = "<group>"; };
-		E01CEA3D1DC507ED00F2F48C /* EditorActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorActionsViewController.m; sourceTree = "<group>"; };
-		E01CEA3E1DC507ED00F2F48C /* EditorActionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditorActionsViewController.xib; sourceTree = "<group>"; };
 		E01CEA421DC55C0D00F2F48C /* UIFont+Traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Traits.h"; sourceTree = "<group>"; };
 		E01CEA431DC55C0D00F2F48C /* UIFont+Traits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Traits.m"; sourceTree = "<group>"; };
 		E01CEA461DC5638C00F2F48C /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
@@ -180,9 +180,6 @@
 				E01CEA1F1DC344AE00F2F48C /* Info.plist */,
 				E01CEA0E1DC344AE00F2F48C /* Supporting Files */,
 				E01CEA3A1DC36ADC00F2F48C /* LaunchScreen.storyboard */,
-				E01CEA3C1DC507ED00F2F48C /* EditorActionsViewController.h */,
-				E01CEA3D1DC507ED00F2F48C /* EditorActionsViewController.m */,
-				E01CEA3E1DC507ED00F2F48C /* EditorActionsViewController.xib */,
 				E0351FAC1DC87DC8007501B0 /* LandingViewController.h */,
 				E0351FAD1DC87DC8007501B0 /* LandingViewController.m */,
 				E0351FAE1DC87DC8007501B0 /* LandingViewController.xib */,
@@ -251,6 +248,9 @@
 				26F4D65E004A8C0AC00FB558 /* TextImageLoader.h */,
 				26F4DAFEB68285744C0DE8E8 /* ComposerTextViewDelegate+ParagraphStyling.m */,
 				26F4D7F303419EC6D9D124C0 /* ComposerTextViewDelegate+ParagraphStyling.h */,
+				26F4D34CD577AABC5DD15E56 /* EditorActionsViewController.xib */,
+				26F4D6AADD6E74F6FCE3D040 /* EditorActionsViewController.h */,
+				26F4DD1A8B1DCAB74E83DDED /* EditorActionsViewController.m */,
 			);
 			path = TextEditor;
 			sourceTree = "<group>";
@@ -347,8 +347,8 @@
 				E01CEA1B1DC344AE00F2F48C /* Assets.xcassets in Resources */,
 				E01CEA4F1DC5640800F2F48C /* RemoteImageCollectionViewCell.xib in Resources */,
 				E01CEA4A1DC5638C00F2F48C /* ImagePickerViewController.xib in Resources */,
-				E01CEA401DC507ED00F2F48C /* EditorActionsViewController.xib in Resources */,
 				26F4D4D4A58ADFC1883E1904 /* TextComposerViewController.xib in Resources */,
+				26F4D42122BCB55698E8129B /* EditorActionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,12 +423,12 @@
 				E013BBFD1DC6902900F338FB /* ImagePickerCollectionViewDataProvider.m in Sources */,
 				E056DC821DC7F9C1004B65C6 /* UIImage+Scale.m in Sources */,
 				E01CEA491DC5638C00F2F48C /* ImagePickerViewController.m in Sources */,
-				E01CEA3F1DC507ED00F2F48C /* EditorActionsViewController.m in Sources */,
 				E05E987D1DC9577900AC72D8 /* NSAttributedString+Paragraph.m in Sources */,
 				E01CEA4E1DC5640800F2F48C /* RemoteImageCollectionViewCell.m in Sources */,
 				26F4D638BEF72AEBCAD822D8 /* TextComposerViewController.m in Sources */,
 				26F4D11CD0EE06BBF993E1EB /* TextImageLoader.m in Sources */,
 				26F4D7A7E6B070F57533BA5F /* ComposerTextViewDelegate+ParagraphStyling.m in Sources */,
+				26F4DF50C0F9B1F14859247A /* EditorActionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

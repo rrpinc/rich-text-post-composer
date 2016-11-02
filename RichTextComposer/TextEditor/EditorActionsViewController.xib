@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditorActionsViewController">
+            <connections>
+                <outlet property="bold" destination="6LM-76-eat" id="uLa-c4-9dh"/>
+                <outlet property="image" destination="B8I-oV-d2H" id="zcx-QB-2VF"/>
+                <outlet property="indent" destination="4AF-e7-xhc" id="Fnz-hF-17w"/>
+                <outlet property="italic" destination="fuP-4Q-05f" id="PKD-hC-yQL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LM-76-eat" userLabel="bold">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6LM-76-eat" secondAttribute="height" multiplier="1:1" id="xiX-eA-Bgu"/>
+                    </constraints>
+                    <state key="normal" image="bold"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuP-4Q-05f" userLabel="italic">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fuP-4Q-05f" secondAttribute="height" multiplier="1:1" id="ZbN-b5-XvI"/>
+                    </constraints>
+                    <state key="normal" image="italic">
+                        <color key="titleShadowColor" red="0.82261960393368172" green="1" blue="0.86856800158076608" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AF-e7-xhc" userLabel="indent">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4AF-e7-xhc" secondAttribute="height" multiplier="1:1" id="nFY-nh-U69"/>
+                    </constraints>
+                    <state key="normal" image="indent"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8I-oV-d2H" userLabel="image">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="B8I-oV-d2H" secondAttribute="height" multiplier="1:1" id="NT9-83-1WB"/>
+                    </constraints>
+                    <state key="normal" image="image"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4AF-e7-xhc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="1Ke-K9-qbC"/>
+                <constraint firstAttribute="bottom" secondItem="4AF-e7-xhc" secondAttribute="bottom" constant="5" id="2l9-XM-J8y"/>
+                <constraint firstAttribute="trailing" secondItem="B8I-oV-d2H" secondAttribute="trailing" constant="10" id="56P-Qq-VBp"/>
+                <constraint firstItem="B8I-oV-d2H" firstAttribute="width" secondItem="6LM-76-eat" secondAttribute="width" id="8y4-pq-1AQ"/>
+                <constraint firstItem="B8I-oV-d2H" firstAttribute="leading" secondItem="4AF-e7-xhc" secondAttribute="trailing" constant="10" id="Dqa-1O-a7g"/>
+                <constraint firstAttribute="bottom" secondItem="B8I-oV-d2H" secondAttribute="bottom" constant="5" id="EPv-Lh-auc"/>
+                <constraint firstItem="fuP-4Q-05f" firstAttribute="leading" secondItem="6LM-76-eat" secondAttribute="trailing" constant="10" id="G3C-fA-B8t"/>
+                <constraint firstItem="6LM-76-eat" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="GS5-Ko-e5K"/>
+                <constraint firstItem="B8I-oV-d2H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="JSh-Th-Fze"/>
+                <constraint firstItem="6LM-76-eat" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="aYg-sG-ADb"/>
+                <constraint firstItem="fuP-4Q-05f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="ctN-1h-Y8V"/>
+                <constraint firstAttribute="bottom" secondItem="6LM-76-eat" secondAttribute="bottom" constant="5" id="dqf-ea-qQm"/>
+                <constraint firstItem="4AF-e7-xhc" firstAttribute="width" secondItem="6LM-76-eat" secondAttribute="width" id="gxZ-UR-cDA"/>
+                <constraint firstAttribute="bottom" secondItem="fuP-4Q-05f" secondAttribute="bottom" constant="5" id="qHC-Nr-bZ7"/>
+                <constraint firstItem="4AF-e7-xhc" firstAttribute="leading" secondItem="fuP-4Q-05f" secondAttribute="trailing" constant="10" id="rXM-0G-0o3"/>
+                <constraint firstItem="fuP-4Q-05f" firstAttribute="width" secondItem="6LM-76-eat" secondAttribute="width" id="vRl-5V-5ds"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-137" y="-168"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bold" width="22" height="29"/>
+        <image name="image" width="32" height="25"/>
+        <image name="indent" width="30" height="20"/>
+        <image name="italic" width="29" height="30"/>
+    </resources>
+</document>
