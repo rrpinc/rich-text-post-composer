@@ -307,7 +307,7 @@
 				TargetAttributes = {
 					E01CEA0A1DC344AE00F2F48C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 752ZVX3U68;
+						DevelopmentTeam = YYU8VLT2U2;
 						ProvisioningStyle = Automatic;
 					};
 					E01CEA231DC344AE00F2F48C = {
@@ -544,7 +544,7 @@
 			baseConfigurationReference = 6EB5CF84B2208D3D04A634EF /* Pods-RichTextComposer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 752ZVX3U68;
+				DEVELOPMENT_TEAM = YYU8VLT2U2;
 				GCC_PREFIX_HEADER = RichTextComposer/PrefixHeader.pch;
 				INFOPLIST_FILE = RichTextComposer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -559,7 +559,7 @@
 			baseConfigurationReference = 2982D44416B2743F064276C1 /* Pods-RichTextComposer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 752ZVX3U68;
+				DEVELOPMENT_TEAM = YYU8VLT2U2;
 				GCC_PREFIX_HEADER = RichTextComposer/PrefixHeader.pch;
 				INFOPLIST_FILE = RichTextComposer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

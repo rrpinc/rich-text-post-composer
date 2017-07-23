@@ -3,8 +3,6 @@
 #import "UIFont+Traits.h"
 #import "ComposerTextViewDelegate+ParagraphStyling.h"
 
-static CGFloat const IndentOffset = 15.0f;
-
 @interface ComposerTextViewDelegate()
 
 @property (nonatomic, weak) UITextView* textView;
