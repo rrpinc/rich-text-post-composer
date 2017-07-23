@@ -6,11 +6,11 @@
 
 static NSString* const RemoteImageCollectionViewCellKey = @"RemoteImageCollectionViewCell";
 static NSString* const ReuseIdentifier = @"ReuseIdent";
-static NSString* const Title = @"Mobilize Drive";
+static NSString* const Title = @"My Drive";
 
 @interface ImagePickerViewController ()<UICollectionViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (weak, nonatomic) IBOutlet UICollectionView* collectionView;
 @property (nonatomic, weak) id<ImagePickerDelegateProtocol> delegate;
 @property (nonatomic, strong) ImagePickerCollectionViewDataProvider* dataProvider;
 

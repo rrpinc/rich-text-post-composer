@@ -44,6 +44,8 @@ static NSString* const ImagesApiUrl = @"https://s3-us-west-2.amazonaws.com/ios-h
     return self.data[index];
 }
 
+//Inline HTTP requset-response handling as this is not the main focus of this project
+
 - (void)loadData
 {
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:ImagesApiUrl]];
